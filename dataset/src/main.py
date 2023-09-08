@@ -1,19 +1,11 @@
 import matplotlib.pyplot as plt
 
-# data_files = ["X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI1.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI2.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI3.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI4.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI5.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI6.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI7.txt"]
-
-data_files = ["X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI2.txt",
-              "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI3.txt",
-              "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI4.txt",
-              "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI5.txt",
-              "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI6.txt",
-              "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI7.txt"]
+data_files = ["X:\BLEGuard\supplement\dataset\RSSI\RSSI2.txt",
+              "X:\BLEGuard\supplement\dataset\RSSI\RSSI3.txt",
+              "X:\BLEGuard\supplement\dataset\RSSI\RSSI4.txt",
+              "X:\BLEGuard\supplement\dataset\RSSI\RSSI5.txt",
+              "X:\BLEGuard\supplement\dataset\RSSI\RSSI6.txt",
+              "X:\BLEGuard\supplement\dataset\RSSI\RSSI7.txt"]
 
 
 
@@ -142,4 +134,3 @@ plt.show()
 # plt.ylabel("RSSI(dBm)")
 #
 # plt.show()
-#

@@ -1,20 +1,12 @@
 import matplotlib.pyplot as plt
 import random
 
-# data_files = ["X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI1.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI2.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI3.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI4.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI5.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI6.txt",
-#               "X:\BLEGuard\supplement\dataset\RSSI-dataset\RSSI7.txt"]
-
-data_files = [".\RSSI-dataset\RSSI2.txt",
-              ".\RSSI-dataset\RSSI3.txt",
-              ".\RSSI-dataset\RSSI4.txt",
-              ".\RSSI-dataset\RSSI5.txt",
-              ".\RSSI-dataset\RSSI6.txt",
-              ".\RSSI-dataset\RSSI7.txt"]
+data_files = [".\RSSI\RSSI2.txt",
+              ".\RSSI\RSSI3.txt",
+              ".\RSSI\RSSI4.txt",
+              ".\RSSI\RSSI5.txt",
+              ".\RSSI\RSSI6.txt",
+              ".\RSSI\RSSI7.txt"]
 
 rssi2 = []
 rssi3 = []
