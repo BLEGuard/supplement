@@ -1,4 +1,4 @@
-# BLEGuard
+# BLEGuard Supplement
 
 This repo is the supplemental material for the paper: [BLEGuard: Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks (Student Abstract)]()
 
@@ -8,7 +8,7 @@ BLEGuard is a hybrid detection mechanism based on cyber-physical features judgme
 .
 ├─code				# relative code includes: LSTM, TextCNN etc.
 └─dataset			# partly test data used.
-   └─RSSI-dataset
+   └─RSSI
 ```
 
 ## Deployment
