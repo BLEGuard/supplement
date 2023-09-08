@@ -4,33 +4,27 @@ This repo is the supplemental material for the paper: [BLEGuard: Hybrid Detectio
 
 BLEGuard is a hybrid detection mechanism based on cyber-physical features judgments and machine learning techniques, which can well identify advanced spoofing attacks through offline training and online analysis. 
 
-```markdown
-.
-├─code				# relative code includes: LSTM, TextCNN etc.
-└─dataset			# partly test data used.
-   └─RSSI-dataset
-```
 
-## Deployment
 
-```shell
-python BLEGuard.py
-BLEGuard device -c 	# device collect
-BLEGuard device -l 	# device list
-```
-
-Profile a device with MAC address 00:11:22:33:44:55. 
-
-```shell
-BLEGuard profile 00:11:22:33:44:55
-```
-
-Start/Stop monitor all devices in the maclist file.
-
-```shell
-BLEGuard monitor start
-BLEGuard monitor stop
+```yaml
+.  
+├─dataset
+│  ├─package			# wireshark packets.
+│  ├─RSSI-dataset		# partly RSSI feature data recorded.
+│  └─src				# data visulization source code.
+├─src
+│  ├─attacker			# attacker.
+│  ├─blemonitor			# BLE device monitor code.
+│  ├─machine-learning	# relative code includes: LSTM, TextCNN etc.
+│  │  ├─LSTM
+│  │  └─TCN
+│  ├─test				# partly test data used.
+│  └─ubertooth			# fixed ubertooth code for additional attribution.
+└─static				# static resource.
+    ├─deviceList
+    └─image
 ```
 
 
 
+More information in [Supplement Report](./supplement.md).
