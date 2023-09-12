@@ -2,15 +2,9 @@
 
 **Supplement Report for AAAI**
 
+Corresponding E-mail: hanlin.cai@ieee.org, zzxu@fzu.edu.cn
 
-Hanlin Cai^1^, Yuchen Fang^1^, Yuan Meng^2^, Zhezhuang Xu^2*^
-
-**^1^** National University of Ireland Maynooth, Maynooth, Co. Kildare, Ireland
-**^2^** School of Electrical Engineering and Automation, Fuzhou University, Fuzhou, China
-
-Corresponding E-mail: hanlin.cai.2021@mumail.ie, zzxu@fzu.edu.cn
-
-# 0 README for our Supplements
+---
 
 [TOC]
 
