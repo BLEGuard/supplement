@@ -1,6 +1,6 @@
 This project includes code from the following projects:
 
-## TCN Model
+## Temporal Convolutional Network
 
 [locuslab/TCN (github.com)](https://github.com/locuslab/TCN)
 License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
@@ -14,7 +14,7 @@ License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
 }
 ```
 
-## LSTM Model
+## Long Short-Term Memory
 
 [ndrplz/ConvLSTM_pytorch (github.com)](https://github.com/ndrplz/ConvLSTM_pytorch)
 License: MIT (see [LICENSE-B](./LICENSE-B) file)
@@ -36,7 +36,7 @@ License: MIT (see [LICENSE-B](./LICENSE-B) file)
 }
 ```
 
-## Text-CNN Classification
+## Text Convolutional Neural Network
 
 [Shawn1993/cnn-text-classification-pytorch (github.com)](https://github.com/Shawn1993/cnn-text-classification-pytorch)
 License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
@@ -59,10 +59,12 @@ License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
 }
 ```
 
-## SVM Classification
+## Support Vector Machine
 
 [AFAgarap/cnn-svm (github.com)](https://github.com/AFAgarap/cnn-svm)
 License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
+[abdulfatir/twitter-sentiment-analysis (github.com)](https://github.com/abdulfatir/twitter-sentiment-analysis)
+License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ```tex
 @article{agarap2017architecture,
@@ -70,6 +72,11 @@ License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
   author      = {Agarap, Abien Fred},
   journal     = {arXiv preprint arXiv:1712.03541},
   year        = {2017}
+}
+@article{ansari2017twitter,
+  title			= {Twitter sentiment analysis},
+  author		= {Ansari, AF and Seenivasan, A and Anandan, A and Lakshmanan, R},
+  year			= {2017}
 }
 @misc{abien_fred_agarap_2017_1098369,
   author       = {Abien Fred Agarap},
@@ -81,7 +88,59 @@ License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
 }
 ```
 
+## K-Nearest Neighbors
 
+[MarcoForte/knn-matting (github.com)](https://github.com/MarcoForte/knn-matting)
+License: MIT (see [LICENSE-B](./LICENSE-B) file)
+
+```tex
+@article{Chen:2012:KM,
+   author		= {Qifeng Chen and Dingzeyu Li and Chi-Keung Tang},
+   journal		= {Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+   title		= {KNN matting},
+   year			= {2013},
+   month		= {Sept},
+   volume		= {35},
+   number		= {9},
+   pages		= {2175-2188},
+   doi			= {10.1109/TPAMI.2013.18}
+}
+```
+
+## Naive Bayes
+
+[abdulfatir/twitter-sentiment-analysis (github.com)](https://github.com/abdulfatir/twitter-sentiment-analysis)
+License: MIT (see [LICENSE-B](./LICENSE-B) file)
+
+```tex
+@article{ansari2017twitter,
+  title			= {Twitter sentiment analysis},
+  author		= {Ansari, AF and Seenivasan, A and Anandan, A and Lakshmanan, R},
+  year			= {2017}
+}
+```
+
+## Random Forest
+
+[parrt/random-forest-importances (github.com)](https://github.com/parrt/random-forest-importances)
+License: MIT (see [LICENSE-B](./LICENSE-B) file)
+
+```tex
+@article{strobl2007bias,
+  title			= {Bias in random forest variable importance measures: Illustrations, sources and a solution},
+  author		= {Strobl, Carolin and Boulesteix, Anne-Laure and Zeileis, Achim and Hothorn, Torsten},
+  journal		= {BMC bioinformatics},
+  volume		= {8},
+  number		= {1},
+  pages			= {1--21},
+  year			= {2007},
+  publisher		= {BioMed Central}
+}
+```
+
+## Logistic Regression Classification
+
+[perborgen/LogisticRegression (github.com)](https://github.com/perborgen/LogisticRegression)
 
 
 
