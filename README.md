@@ -7,14 +7,14 @@ BLEGuard is a hybrid detection mechanism based on cyber-physical features judgme
 
 ```
 .
-├─dataset				# sample set of our data
-│  ├─profiles			# sample data of BLE device.
-│  └─RSSI				# partly RSSI feature data recorded.
+├─dataset				      # sample set of our data
+│  ├─profiles			    # sample data of BLE device.
+│  └─RSSI				      # partly RSSI feature data recorded.
 ├─src
-│  ├─blemonitor			# BLE device monitor code.
+│  ├─blemonitor			  # BLE device monitor code.
 │  ├─machine-learning	# relative code includes: SVM, TextCNN etc.
-│  └─ubertooth			# fixed ubertooth code for additional attribution.
-├─static				# static resource.
+│  └─ubertooth			  # fixed ubertooth code for additional attribution.
+├─static			      	# static resource.
 └─README
 ```
 
