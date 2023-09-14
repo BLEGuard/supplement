@@ -1,8 +1,24 @@
-This project includes code from the following projects:
+# Machine Learning
+
+This project includes partly code from the following projects which were used in our work:
+
+```
+.
+├─bayes
+├─cnn-svm
+├─cnn-text-classification-pytorch
+├─cnn-text-classification-tf
+├─knn
+├─logistic
+├─lstm
+├─random-forest
+├─svm
+└─tcn
+```
 
 ## Temporal Convolutional Network
 
-[locuslab/TCN (github.com)](https://github.com/locuslab/TCN)
+[locuslab/TCN (github.com)](https://github.com/locuslab/TCN) in `/tcn`
 License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
 
 ```tex
@@ -16,7 +32,7 @@ License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
 
 ## Long Short-Term Memory
 
-[ndrplz/ConvLSTM_pytorch (github.com)](https://github.com/ndrplz/ConvLSTM_pytorch)
+[ndrplz/ConvLSTM_pytorch (github.com)](https://github.com/ndrplz/ConvLSTM_pytorch) in `/lstm`
 License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ```tex
@@ -38,9 +54,9 @@ License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ## Text Convolutional Neural Network
 
-[Shawn1993/cnn-text-classification-pytorch (github.com)](https://github.com/Shawn1993/cnn-text-classification-pytorch)
+[Shawn1993/cnn-text-classification-pytorch (github.com)](https://github.com/Shawn1993/cnn-text-classification-pytorch) in `/cnn-text-classification-pytorch` 
 License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
-[dennybritz/cnn-text-classification-tf (github.com)](https://github.com/dennybritz/cnn-text-classification-tf)
+[dennybritz/cnn-text-classification-tf (github.com)](https://github.com/dennybritz/cnn-text-classification-tf) in `/cnn-text-classification-tf`
 License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
 
 ```tex
@@ -61,9 +77,9 @@ License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
 
 ## Support Vector Machine
 
-[AFAgarap/cnn-svm (github.com)](https://github.com/AFAgarap/cnn-svm)
+[AFAgarap/cnn-svm (github.com)](https://github.com/AFAgarap/cnn-svm) in `/cnn-svm`
 License: Apache License 2.0 (see [LICENSE-A](./LICENSE-A) file)
-[abdulfatir/twitter-sentiment-analysis (github.com)](https://github.com/abdulfatir/twitter-sentiment-analysis)
+[abdulfatir/twitter-sentiment-analysis (github.com)](https://github.com/abdulfatir/twitter-sentiment-analysis) in `/svm`
 License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ```tex
@@ -90,7 +106,7 @@ License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ## K-Nearest Neighbors
 
-[MarcoForte/knn-matting (github.com)](https://github.com/MarcoForte/knn-matting)
+[MarcoForte/knn-matting (github.com)](https://github.com/MarcoForte/knn-matting) in `/knn`
 License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ```tex
@@ -109,7 +125,7 @@ License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ## Naive Bayes
 
-[abdulfatir/twitter-sentiment-analysis (github.com)](https://github.com/abdulfatir/twitter-sentiment-analysis)
+[abdulfatir/twitter-sentiment-analysis (github.com)](https://github.com/abdulfatir/twitter-sentiment-analysis) in `/bayes`
 License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ```tex
@@ -122,7 +138,7 @@ License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ## Random Forest
 
-[parrt/random-forest-importances (github.com)](https://github.com/parrt/random-forest-importances)
+[parrt/random-forest-importances (github.com)](https://github.com/parrt/random-forest-importances) in `/random-forest`
 License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ```tex
@@ -140,7 +156,4 @@ License: MIT (see [LICENSE-B](./LICENSE-B) file)
 
 ## Logistic Regression Classification
 
-[perborgen/LogisticRegression (github.com)](https://github.com/perborgen/LogisticRegression)
-
-
-
+[perborgen/LogisticRegression (github.com)](https://github.com/perborgen/LogisticRegression) in `/logistic`
