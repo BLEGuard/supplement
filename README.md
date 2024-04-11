@@ -34,7 +34,7 @@ This project is licensed under the MIT license. See the [LICENSE](./LICENSE) fil
 ## Citation
 
 ```tex
-@techreport{cai2023bleguard,
+@techreport{cai2024bleguard,
   title={BLEGuard: Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks},
   author={Cai, Hanlin and Fang, Yuchen and Huang, Jiacheng and Yuan, Meng and Xu, Zhezhuang},
   year={2024},
