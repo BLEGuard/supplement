@@ -2,10 +2,10 @@
 
 As the foremost protocol for low-power communication, Bluetooth Low Energy (BLE) significantly impacts various aspects of our lives, including industry and healthcare. Given BLE’s inherent security limitations and firmware vulnerabilities, spoofing attacks can readily compromise BLE devices and jeopardize privacy data. In this paper, we introduce ***BLEGuard***, a hybrid mechanism for detecting spoofing attacks in BLE networks. We established a physical Bluetooth system to conduct attack simulations and construct a substantial dataset (***BLE-SAD***). BLEGuard integrates pre-detection, reconstruction, and classification models to effectively identify spoofing activities, achieving an impressive preliminary accuracy of 99.01%, with a false alarm rate of 2.05% and an undetection rate of 0.36%.
 
-Our Github repo contain the following code and data:
+**Our Github repo contain the following code and data:**
 
 
-```
+```tex
 .
 ├─dataset               # sample set of our dataset.
 │  ├─profiles           # sample data of BLE device.
@@ -19,10 +19,10 @@ Our Github repo contain the following code and data:
 └─README                # the document you are reading now :D
 ```
 
-## Hybrid Detection Mechanism
+## Our Poster for MobiSys 2024
 
 <left>
-  <img src = "./static/workflow.png" width = 60%>
+  <img src = "./static/BLEGuard_poster.png">
 </left>
 
 ## Reference & License
