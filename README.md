@@ -30,3 +30,17 @@ As the foremost protocol for low-power communication, Bluetooth Low Energy (BLE)
 You can find the projects we've referenced in the machine learning section at this [link](https://github.com/BLEGuard/supplement/blob/master/src/machine-learning/machine-learning.md).
 
 This project is licensed under the MIT license. See the [LICENSE](./LICENSE) file for details.
+
+## Citation
+
+```tex
+@techreport{cai2023bleguard,
+  title={BLEGuard: Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks},
+  author={Cai, Hanlin and Fang, Yuchen and Huang, Jiacheng and Yuan, Meng and Xu, Zhezhuang},
+  year={2024},
+  institution={EasyChair}
+}
+```
+
+
+
