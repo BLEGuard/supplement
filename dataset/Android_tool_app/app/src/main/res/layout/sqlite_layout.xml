@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/relativeline">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentTop="true"
+        android:stretchColumns="0"><!-- 可以拉伸的列 -->
+        <TableRow>
+            <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="查询内容"
+                android:id="@+id/query_et"/>
+            <Button 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/query_bn"
+                android:text="Query"/>
+        </TableRow>
+        <TableRow>
+            <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="更新内容"
+                android:id="@+id/update_et"/>
+            <Button 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_bn"
+                android:text="Update"/>
+        </TableRow>
+        <TableRow>
+            <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="删除表格，分别输入1,2.。"
+                android:id="@+id/delete_et"
+                android:inputType="number"/>
+            <Button 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete_bn"
+                android:text="Delete"/>
+        </TableRow>
+        <TableRow >
+            <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="保存txt文件(1.2...)"
+                android:id="@+id/save_et"/>
+            <Button
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:id="@+id/save_txt"
+        		android:text="Save to TXT"/>
+        </TableRow>
+
+        <TextView
+            android:id="@+id/show_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示结果" 
+            android:scrollbars="vertical" 
+        	android:singleLine="false"
+   		 	android:maxLines="10"/> <!-- 垂直滚动条，实现多行，最多10行 -->
+   		 	
+    </TableLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/close_sqlite"
+        android:text="Close"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

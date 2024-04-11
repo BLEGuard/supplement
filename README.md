@@ -1,30 +1,25 @@
 # BLEGuard Supplement
 
-This repo is the supplemental material for BLEGuard project.
+As the foremost protocol for low-power communication, Bluetooth Low Energy (BLE) significantly impacts various aspects of our lives, including industry and healthcare. Given BLE’s inherent security limitations and firmware vulnerabilities, spoofing attacks can readily compromise BLE devices and jeopardize privacy data. In this paper, we introduce ***BLEGuard***, a hybrid mechanism for detecting spoofing attacks in BLE networks. We established a physical Bluetooth system to conduct attack simulations and construct a substantial dataset (***BLE-SAD***). BLEGuard integrates pre-detection, reconstruction, and classification models to effectively identify spoofing activities, achieving an impressive preliminary accuracy of 99.01%, with a false alarm rate of 2.05% and an undetection rate of 0.36%.
 
-BLEGuard is a hybrid detection mechanism based on cyber-physical features judgments and machine learning techniques, which can well identify advanced spoofing attacks through offline training and online analysis. 
-
-More information in [Supplement Report](https://github.com/BLEGuard/supplement/blob/master/supplement.pdf).
+Our Github repo contain the following code and data:
 
 
 ```
 .
-├─dataset               # sample set of our data
+├─dataset               # sample set of our dataset.
 │  ├─profiles           # sample data of BLE device.
-│  └─RSSI               # partly RSSI feature data recorded.
+│  └─BLE-SAD            # large-scale BLE network packets.
+│  └─Android_tool_app   # Android app for automatic data collection.
 ├─src
-│  ├─blemonitor         # BLE device monitor code.
-│  ├─machine-learning   # relative code includes: SVM, TextCNN etc.
+│  ├─blemonitor         # BLE device monitoring program.
+│  ├─machine-learning   # relative code for our learning model.
 │  └─ubertooth          # fixed ubertooth code for additional attribution.
 ├─static                # static resource.
-└─README
+└─README                # the document you are reading now :D
 ```
 
 ## Hybrid Detection Mechanism
-
-The distinctive characteristics of advertising packets can be leveraged to discern malevolent activities within Bluetooth Low Energy (BLE) networks. The sudden fluctuations in the Used Channel Number (UCN) and Interarrival Time (INT) can be attributed to potential attack incidents. Furthermore, in order to detect sophisticated spoofing attacks, Received Signal Strength Indicator (RSSI) and Carrier Frequency Offset (CFO) are employed to establish a continuous assessment mechanism. It is important to note that the detection algorithm is presently undergoing refinement and testing. The comprehensive codebase will be made available on our [GitHub repository](https://github.com/BLEGuard/supplement) upon its finalization and validation.
-
-The BLEGuard system is designed to strike a balance between detection accuracy and power consumption within BLE networks. As depicted in **Figure 1**, when GPU resources are insufficient, the feature judgment algorithm can be deployed online with minimal resource utilization, while reconstruction models can be invoked when precise detection is imperative. Additionally, the classification models demonstrate a high degree of reliability in identifying specific malevolent advertising packets. Preliminary experimental results have substantiated the feasibility of this approach without causing interference.
 
 <left>
   <img src = "./static/workflow.png" width = 60%>
@@ -32,6 +27,6 @@ The BLEGuard system is designed to strike a balance between detection accuracy a
 
 ## Reference & License
 
-You can find the projects we've referenced in the machine learning section at this [link](https://github.com/BLEGuard/supplement/blob/master/src/machine-learning/machine-learning.md). 
+You can find the projects we've referenced in the machine learning section at this [link](https://github.com/BLEGuard/supplement/blob/master/src/machine-learning/machine-learning.md).
 
 This project is licensed under the MIT license. See the [LICENSE](./LICENSE) file for details.

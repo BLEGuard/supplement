@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+		<TableRow>
+	        <EditText
+	            android:id="@+id/time_et_draw"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:hint="显示速度（ms）"
+	            android:inputType="number" />
+	        <Button
+	            android:id="@+id/time_cg_draw"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Done" />
+	    </TableRow>
+		<TableRow>
+	        <EditText
+	            android:id="@+id/num_et_draw"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:hint="显示表格几（1.2....）" />
+	        <Button
+	            android:id="@+id/num_cg_draw"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Done" />
+	    </TableRow>
+	    <TableRow>
+	        <ScrollView
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent">   <!-- 匹配父类，就是上一层布局 -->
+		        <TextView
+		            android:id="@+id/draw_tv"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:scrollbars="vertical" 
+				    android:singleLine="false"
+				    android:maxLines="15" /><!-- 垂直滚动条，实现多行，最多15行 -->
+	        </ScrollView>
+	    </TableRow>  
+		<TableRow>
+	        <Button
+	            android:id="@+id/start_draw"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Draw" />
+	        <Button
+	            android:id="@+id/close_draw"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Close" />
+	    </TableRow>   
+	</TableLayout>
+</LinearLayout>
+
+
+<!-- 原先和画图在一起的布局，采用了相对布局，现在不适用了 -->
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:focusableInTouchMode="true">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"/>   
+	<com.example.collectrssi.Draw_View
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:id="@+id/myview"/>  
+	<Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/start_draw"
+	    android:layout_alignParentBottom="true"
+	    android:text="Draw"/>
+	<Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/stop_draw"
+	    android:layout_toEndOf="@id/start_draw"
+	    android:layout_alignParentBottom="true"
+	    android:text="Stop"/>
+	<Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/clear_draw"
+	    android:layout_toEndOf="@id/stop_draw"
+	    android:layout_alignParentBottom="true"
+		android:text="Clear"/>
+
+	<EditText
+	    android:id="@+id/num_et_draw"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/start_draw"
+	    android:layout_alignParentLeft="true"
+	    android:ems="10"
+	    android:hint="显示表格几（1.2....）" >
+
+	    <requestFocus />
+	</EditText>
+
+	<EditText
+	    android:id="@+id/time_et_draw"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/num_cg_draw"
+	    android:layout_alignParentLeft="true"
+	    android:ems="10"
+	    android:hint="显示速度（ms）" 
+	    android:inputType="number"/>
+
+	<Button
+	    android:id="@+id/time_cg_draw"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/num_cg_draw"
+	    android:layout_alignParentRight="true"
+	    android:layout_toEndOf="@+id/num_et_draw"
+	    android:text="Done" />
+
+	<Button
+	    android:id="@+id/num_cg_draw"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/drawall_draw"
+	    android:layout_alignParentRight="true"
+	    android:layout_toEndOf="@id/num_et_draw"
+	    android:text="Done" />
+
+	<Button
+	    android:id="@+id/drawall_draw"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/num_et_draw"
+	    android:layout_toEndOf="@id/clear_draw"
+	    android:text="DrawAll" />
+
+</RelativeLayout>-->
